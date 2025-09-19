@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chimas  Phone Repair</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body class="bg-white">
+
+    <!-- Top Bar -->
+    <!-- <header class="bg-gray-800 text-white py-2">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="text-sm">Chimas phone repair service</div>
+            <div class="flex items-center space-x-4 text-sm">
+                <a href="#" class="hover:text-blue-400 transition-colors">f</a>
+                <a href="#" class="hover:text-blue-400 transition-colors">t</a>
+                <a href="#" class="hover:text-blue-400 transition-colors">v</a>
+                <a href="#" class="hover:text-blue-400 transition-colors">G+</a>
+                <a href="#" class="hover:text-blue-400 transition-colors">in</a>
+            </div>
+        </div>
+    </header> -->
+     <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex flex-wrap justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <!-- Logo SVG -->
+                <span class="inline-block w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center shadow-md">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H5a2 2 0 01-2-2V5zm0 12a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H5a2 2 0 01-2-2v-2zm12-12a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V5zm0 12a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M7 7h.01M17 17h.01M7 17h.01M17 7h.01" />
+                    </svg>
+                </span>
+                <div class="text-lg md:text-2xl font-bold text-gray-800">CHIMAS REPAIR SERVICES.</div>
+            </div>
+            <button id="nav-toggle" class="block md:hidden text-gray-600 focus:outline-none" aria-label="Open navigation menu" aria-expanded="false">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+            <ul id="nav-menu" class="flex-col md:flex md:flex-row md:space-x-6 text-gray-600 font-medium absolute md:static bg-white left-0 w-full md:w-auto top-16 md:top-auto shadow-md md:shadow-none z-50 hidden md:flex transition-all duration-300">
+                <li><a href="#" class="block px-4 py-2 hover:text-blue-500 transition-colors nav-link active">HOME</a></li>
+                <li><a href="#about" class="block px-4 py-2 hover:text-blue-500 transition-colors nav-link">ABOUT US</a></li>
+                <li><a href="#contact" class="block px-4 py-2 hover:text-blue-500 transition-colors nav-link">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="relative bg-gray-200">
+        <div class="absolute inset-0 bg-blue-500 opacity-20"></div>
+        <div class="container mx-auto px-4 py-16 md:py-24 relative z-10 text-white flex flex-col md:flex-row items-center justify-between animate__animated animate__fadeInDown gap-8 md:gap-0">
+            <div class="w-full md:w-1/2 p-4 md:p-8 animate__animated animate__fadeInLeft animate__delay-1s">
+                <h1 id="typewriter" class="text-2xl md:text-4xl font-bold mb-4">AFFORDABLE IS NOT JUST A NAME.</h1>
+                <h2 class="text-3xl md:text-5xl font-extrabold text-blue-300 drop-shadow-lg mb-4 animate__animated animate__fadeInUp animate__delay-2s">IT'S A PROMISE.</h2>
+                <p class="text-base md:text-lg mb-6 animate__animated animate__fadeIn animate__delay-3s">In today's fast-paced digital world, smartphones are indispensable tools for communication, work, and entertainment. <br>
+                     But with frequent use comes the risk of damage - cracked screens, malfunctioning buttons, water exposure, and battery issues are all too common. That's where a trusted phone repair service like ours steps in to restore your device's functionality and get you back to staying connected.
+                </p>
+                <button id="hero-read-more" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full transition-colors animate__animated animate__pulse animate__infinite">Read More</button>
+            </div>
+            <div class="w-full md:w-1/2 animate__animated animate__fadeInRight animate__delay-1s flex justify-center">
+                <!-- Image of a technician from the original layout -->
+                <img src="image phone repair/WhatsApp Image 2025-09-14 at 15.04.08_4239813e.jpg"  alt=" Technician repairing a device"  class="rounded-lg shadow-lg w-full max-w-xs md:max-w-md lg:max-w-lg h-auto">
+            </div>
+        </div>
+    </section>
+    <!-- Call to Action Section -->
+    <section class="bg-blue-600 py-6 text-white text-center">
+        <div class="container mx-auto px-2 md:px-4 flex flex-col md:flex-row justify-center items-center space-y-2 md:space-y-0 md:space-x-4">
+            <div class="text-lg md:text-2xl font-semibold">DO YOU NEED A PHONE REPAIR?</div>
+            <a href="mailto:isgrace1144@gmail.com" class="bg-white text-blue-600 font-bold py-3 px-6 rounded-full hover:bg-gray-100 transition-colors">SEND ME A MESSAGE</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-12 md:py-16" id="about">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-12">
+            <div class="w-full md:w-1/2">
+                <h2 class="text-2xl md:text-4xl font-extrabold text-gray-800 mb-2">ABOUT US</h2>
+                <h3 class="text-xl md:text-3xl font-bold text-gray-600 mb-6">HOW CAN WE HELP</h3>
+                <p class="text-gray-700 mb-8"> At Chimas repair, our team of skilled and certified technicians is passionate about delivering high-quality phone repair solutions. <br>With expertise in handling various brands and models, we understand the importance of your mobile devices and strive to provide repairs you can count on.
+
+.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-gray-700">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+                        </div>
+                        <span>Phone Diagnosis</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        </div>
+                        <span>Battery Replacement</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                        </div>
+                        <span>Data Recovery</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center">
+                            <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l2-2m-2 2a2 2 0 01-2-2m2 2a2 2 0 002-2m-2 2h-2M13 6h2m-2 0a2 2 0 01-2-2m2 2a2 2 0 002-2m-2 2v2m0 0v2m0 0a2 2 0 002 2m-2-2a2 2 0 01-2-2m2 2h2m-2 0h-2m-2-2v2m-2 0a2 2 0 002 2m2-2a2 2 0 01-2-2m-2 2h-2M17 10h2m-2 0a2 2 0 01-2-2m2 2a2 2 0 002-2m-2 2v2m0 0v2m0 0a2 2 0 002 2m-2-2a2 2 0 01-2-2m2 2h2m-2 0h-2"></path></svg>
+                        </div>
+                        <span>Ear Phone Jack/Malfunctions</span>
+                    </div>
+                </div>
+                <button onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' });" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full transition-colors mt-4">Read More</button>
+            </div>
+            <div class="w-full md:w-1/2 flex justify-center">
+                <!-- Image of disassembled phone from the original layout -->
+                <img src="image phone repair/kilian-seiler-PZLgTUAhxMM-unsplash.jpg" alt="Disassembled smartphone showing components" class="rounded-lg shadow-lg w-full max-w-xs md:max-w-md lg:max-w-lg h-auto">
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery Section -->
+    <section class="relative py-12 md:py-16">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://unsplash.com/photos/silver-macbook-beside-battery-charger-4x-67z_TaGo');"></div>
+        <div class="absolute inset-0 bg-blue-900 opacity-80"></div>
+        <div class="container mx-auto px-4 relative z-10 flex flex-col md:flex-row items-center justify-between gap-8 md:gap-0">
+            <div class="w-full md:w-1/2 flex justify-center">
+                <img src="image phone repair/tron-le-FctyNl5YCbs-unsplash.jpg" alt="Gallery of different tech devices" class="rounded-lg shadow-lg w-full max-w-xs md:max-w-md lg:max-w-lg h-auto">
+            </div>
+            <div class="w-full md:w-1/2 text-white p-4 md:p-8">
+                <h2 class="text-2xl md:text-4xl font-extrabold mb-4">WANT TO REPAIR YOUR SMARTPHONE?</h2>
+                <p class="text-base md:text-lg">WE'RE HERE TO HELP YOU MANAGE YOUR PROBLEM.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-12 md:py-16 bg-gray-100" id="contact">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-8 md:mb-12">
+                <h2 class="text-2xl md:text-4xl font-bold text-gray-800">CONTACT US</h2>
+                <p class="mt-2 md:mt-4 text-gray-600">Get in touch with us for all your repair needs.</p>
+            </div>
+            <div class="flex flex-col lg:flex-row space-y-8 lg:space-y-0 lg:space-x-12">
+                <!-- Contact Form -->
+                <div class="w-full lg:w-1/2 bg-white p-4 md:p-8 rounded-lg shadow-md">
+                    <form id="contactForm">
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 font-semibold mb-2">Name</label>
+                            <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 font-semibold mb-2">Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div class="mb-4">
+                            <label for="subject" class="block text-gray-700 font-semibold mb-2">Subject</label>
+                            <input type="text" id="subject" name="subject" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                         <div class="mb-6">
+                            <label for="message" class="block text-gray-700 font-semibold mb-2">Message</label>
+                            <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full transition-colors">Send Message</button>
+                    </form>
+                    <!-- Message container for form feedback -->
+                    <div id="formMessage" class="hidden mt-4 p-3 rounded-md text-sm"></div>
+                </div>
+
+                <!-- Contact Info and Map -->
+                <div class="w-full lg:w-1/2 p-4 md:p-8 rounded-lg">
+                    <div class="mb-8">
+                        <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">Contact Information</h3>
+                        <p class="text-gray-700 flex items-center mb-2">
+                            <svg class="w-5 h-5 text-blue-500 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+                            No, 9  balogun ikeja
+                        </p>
+                        <p class="text-gray-700 flex items-center mb-2">
+                            <svg class="w-5 h-5 text-blue-500 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.956.703l.85 2.551a1 1 0 01-.218 1.054L6.96 10.96a10 10 0 006.08 6.08l1.75-1.75a1 1 0 011.054-.218l2.551.85a1 1 0 01.703.956V17a1 1 0 01-1 1h-2a1 1 0 01-1-1v-2a1 1 0 011-1h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 01-1-1V2a1 1 0 011-1h2a1 1 0 011 1z" clip-rule="evenodd"></path></svg>
+                            +(234) 8151890165
+                        </p>
+                        <p class="text-gray-700 flex items-center">
+                            <svg class="w-5 h-5 text-blue-500 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                            isgrace1144@gmail.com
+                        </p>
+                    </div>
+                    <div class="h-64 bg-gray-300 rounded-lg shadow-md overflow-hidden">
+    <iframe
+        src="https://www.google.com/maps?q=9+balogun+ikeja&output=embed"
+        width="100%"
+        height="100%"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+                </div>
+            </div>
+             </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 Chimas  Phone Repair. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script>
+// Typewriter effect for the hero heading
+const text = "AFFORDABLE IS NOT JUST A NAME.";
+const el = document.getElementById("typewriter");
+el.textContent = "";
+let words = text.split(" ");
+let i = 0;
+function typeWord() {
+    if (i < words.length) {
+        el.textContent += (i === 0 ? "" : " ") + words[i];
+        i++;
+        setTimeout(typeWord, 400); // Adjust speed here (ms per word)
+    }
+}
+typeWord();
+
+// Typewriter effect for the contact section heading
+const contactText = "CONTACT US";
+const contactEl = document.querySelector("#contact h2");
+if (contactEl) {
+    contactEl.textContent = "";
+    let cWords = contactText.split(" ");
+    let ci = 0;
+    function typeContactWord() {
+        if (ci < cWords.length) {
+            contactEl.textContent += (ci === 0 ? "" : " ") + cWords[ci];
+            ci++;
+            setTimeout(typeContactWord, 400);
+        }
+    }
+    typeContactWord();
+}
+
+// Nav menu active link logic
+const navLinks = document.querySelectorAll('.nav-link');
+navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+        navLinks.forEach(l => l.classList.remove('active', 'text-blue-500'));
+        this.classList.add('active', 'text-blue-500');
+    });
+});
+
+// Contact form functionality
+const contactForm = document.getElementById('contactForm');
+const formMessage = document.getElementById('formMessage');
+if (contactForm && formMessage) {
+    contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        // Simple validation
+        const name = contactForm.name.value.trim();
+        const email = contactForm.email.value.trim();
+        const subject = contactForm.subject.value.trim();
+        const message = contactForm.message.value.trim();
+        if (!name || !email || !subject || !message) {
+            formMessage.textContent = 'Please fill in all fields.';
+            formMessage.className = 'mt-4 p-3 rounded-md text-sm bg-red-100 text-red-700';
+            formMessage.classList.remove('hidden');
+            return;
+        }
+        // Show success message
+        formMessage.textContent = 'Thank you for contacting us! We will get back to you soon.';
+        formMessage.className = 'mt-4 p-3 rounded-md text-sm bg-green-100 text-green-700';
+        formMessage.classList.remove('hidden');
+        contactForm.reset();
+    });
+}
+
+// --- HERO SECTION READ MORE BUTTON FUNCTIONALITY ---
+const heroReadMoreBtn = document.getElementById('hero-read-more');
+if (heroReadMoreBtn) {
+    heroReadMoreBtn.addEventListener('click', function() {
+        const aboutSection = document.getElementById('about');
+        if (aboutSection) {
+            aboutSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+}
+
+// Hamburger menu toggle for mobile
+const navToggle = document.getElementById('nav-toggle');
+const navMenu = document.getElementById('nav-menu');
+if (navToggle && navMenu) {
+    navToggle.addEventListener('click', function() {
+        const isOpen = navMenu.classList.contains('flex');
+        if (isOpen) {
+            navMenu.classList.remove('flex');
+            navMenu.classList.add('hidden');
+            navToggle.setAttribute('aria-expanded', 'false');
+        } else {
+            navMenu.classList.remove('hidden');
+            navMenu.classList.add('flex');
+            navToggle.setAttribute('aria-expanded', 'true');
+        }
+    });
+    // Close menu when a nav link is clicked (on mobile)
+    navMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth < 768) {
+                navMenu.classList.remove('flex');
+                navMenu.classList.add('hidden');
+                navToggle.setAttribute('aria-expanded', 'false');
+            }
+        });
+    });
+}
+    </script>
+        
+    </body>
+    </html>
